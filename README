@@ -1,0 +1,8 @@
+<Limit GET POST PUT DELETE>
+order deny,allow
+allow from all
+</Limit>
+
+The API user then needs to set the X_USERNAME and X_PASSWORD headers in his request.
+
+

@@ -1,0 +1,1 @@
+ALTER TABLE `items` ADD `user_id` INT(10) NOT NULL AFTER `entry_date`;
